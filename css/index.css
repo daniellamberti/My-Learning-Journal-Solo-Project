@@ -74,7 +74,7 @@ body {
     display: block;
     margin: 0 auto;
     margin-bottom: 0;
-    background-image: url("/images/hero-img.jpg");
+    background-image: url("./images/hero-img.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
@@ -112,7 +112,7 @@ body {
     height: 510px;
     margin: 0 auto;
     margin-bottom: 1.5em;
-    background-image: url("/images/hero-img.jpg");
+    background-image: url("./images/hero-img.jpg");
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -375,7 +375,7 @@ body {
     display: block;
     margin: 0 auto;
     margin-bottom: 0;
-    background-image: url("/images/hero-img.jpg");
+    background-image: url("./images/hero-img.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
@@ -418,7 +418,7 @@ body {
     height: 510px;
     margin: 0 auto;
     margin-bottom: 1.5em;
-    background-image: url("/images/hero-img.jpg");
+    background-image: url("./images/hero-img.jpg");
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -716,7 +716,7 @@ body {
     display: block;
     margin: 0 auto;
     margin-bottom: 0;
-    background-image: url("/images/hero-img.jpg");
+    background-image: url("./images/hero-img.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -755,7 +755,7 @@ body {
     height: 510px;
     margin: 0 auto;
     margin-bottom: 1.5em;
-    background-image: url("../images/hero-img.jpg");
+    background-image: url("./images/hero-img.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
