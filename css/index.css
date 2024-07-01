@@ -4,7 +4,7 @@ body {
   box-sizing: border-box;
 }
 
-@media (min-width: 820px) and (max-width: 1366px) {
+@media (max-width: 1920px) {
   #start {
     display: flex;
     flex-direction: row;
@@ -192,6 +192,7 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    flex-shrink: 1;
     justify-content: center;
     margin: 0 auto;
     margin-top: 0;
@@ -314,331 +315,28 @@ body {
   }
 }
 
-@media (min-width: 600px) and (max-width: 819px) {
-  header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 2.5rem;
-    margin: 0 auto;
-    width: 100%;
-    height: 3.75rem;
-    background-color: white;
-  }
-
-  header a {
-    text-decoration: none;
-    color: black;
-  }
-
-  #head-1,
-  #head-2 {
-    width: 40%;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    margin-left: 3.12em;
-    gap: 1.25rem;
-  }
-
-  #head-2 {
-    width: 40%;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-    margin-right: 3.12em;
-    gap: 1.25rem;
-  }
-
-  #logo-img {
-    width: 8%;
-  }
-
-  #dani-pic {
-    width: 130px;
-    height: 130px;
-    border-radius: 50%;
-  }
-
-  span {
-    display: inline-block;
-    font-size: 0.9rem;
-    font-weight: 700;
-  }
-
-  #main-img {
-    width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 0;
-    background-image: url("../images/hero-img.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: white;
-    padding-top: 20em;
-    padding-bottom: 7.5em;
-  }
-
-  #main-img2 {
-    width: 100%;
-    display: block;
-    margin: 0 auto;
-    margin-left: 2.4em;
-    margin-bottom: 2em;
-    background-color: white;
-    color: black;
-  }
-
-  #main-img3 {
-    width: 60%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-    margin-left: 0;
-    margin-bottom: 1.25em;
-    background-color: white;
-    color: black;
-    overflow: hidden;
-  }
-
-  #learning-journal {
-    justify-content: center;
-    align-content: center;
-  }
-
-  #hero-img2 {
-    display: block;
-    width: 90%;
-    height: 510px;
-    margin: 0 auto;
-    margin-bottom: 1.5em;
-    background-image: url("../images//hero-img.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-
-  #hero-img2 img {
-    width: 100%;
-    height: 400px;
-    margin-bottom: 0;
-  }
-
-  #date {
-    margin-bottom: 0.6em;
-    margin-left: 3.2em;
-    font-size: 1.2rem;
-  }
-
-  #date2 {
-    margin-top: 5em;
-    margin-bottom: 0.9em;
-    margin-left: 2em;
-    font-size: 1.2rem;
-  }
-
-  h1 {
-    margin-top: 0;
-    margin-bottom: 0.5em;
-    font-size: 1.75rem;
-    font-weight: bold;
-  }
-
-  #title {
-    width: 30%;
-    margin-top: 0;
-    margin-bottom: 0.5em;
-    margin-left: 0;
-    font-size: 1.75rem;
-    font-weight: bold;
-    text-align: center;
-  }
-
-  #title2 {
-    margin-top: 0;
-    margin-bottom: 0.9em;
-    margin-left: 1.35em;
-    font-size: 1.75rem;
-    font-weight: bold;
-  }
-
-  #description {
-    width: 20%;
-    line-height: 1.7;
-    font-size: 3rem;
-    margin-top: 0;
-    margin-left: 0;
-    margin-right: 2em;
-    margin-bottom: 0.4em;
-    text-align: left;
-  }
-
-  #description-b {
-    width: 76%;
-    line-height: 1.7;
-    font-size: 1rem;
-    margin-top: 0;
-    margin-left: 2.48em;
-  }
-
-  #description2 {
-    width: 80%;
-    line-height: 1.7;
-    font-size: 0.8rem;
-    margin-top: 0;
-    margin-left: 6.5em;
-    margin-bottom: 1em;
-  }
-
-  #articles-section {
-    width: 90%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 2em;
-    margin: 0 auto;
-    margin-top: 0;
-    background-color: white;
-    padding-top: 1.8em;
-    padding-bottom: 0.4em;
-  }
-
-  #articles-hidden {
-    visibility: visible;
-    width: 90%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 2em;
-    margin: 0 auto;
-    margin-top: 0;
-    background-color: white;
-    padding-top: 0.5em;
-    padding-bottom: 0.6em;
-  }
-
-  #article-img {
-    margin: auto;
-  }
-
+@media (max-width: 820px) {
   #article-design {
-    display: block;
-    width: 44%;
-    margin: 0 auto;
-    margin-bottom: 0.6em;
-  }
-
-  #art-p,
-  #art-h2,
-  #art-descrip {
-    margin-left: 0;
-  }
-
-  #art-p {
-    font-size: 1.2rem;
-    margin-top: 1.25em;
-    margin-bottom: 0;
-  }
-
-  #art-h2 {
-    font-size: 1.75rem;
-    font-weight: 700;
-    margin-top: 0.4em;
-    margin-bottom: 0;
-  }
-
-  #art-descrip {
-    font-size: 1rem;
-    color: #505050;
-    line-height: 1.5;
-    margin-top: 0.3em;
-  }
-
-  button {
-    display: block;
-    margin: 0 auto;
-    padding-bottom: 0.3em;
-    border: none;
-    font-weight: bold;
-    font-size: 0.8rem;
-    text-decoration: underline;
-  }
-
-  #summary-data {
-    width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-    margin-top: 0;
-    margin-bottom: 0;
-    background-color: white;
-  }
-
-  #about-me-data {
-    width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-    margin-top: 4em;
-    margin-bottom: 0;
-    background-color: white;
-  }
-
-  #summary {
-    width: 100%;
-    display: block;
-    margin: 0 auto;
-    margin-top: 0;
-    background-color: white;
-    padding-bottom: 0.4em;
-  }
-
-  .summary-title {
-    font-weight: bold;
-    margin-top: 0;
-    margin-left: 5.2em;
-    padding-top: 0.4em;
-  }
-
-  #recent-posts {
-    font-size: 1.2rem;
-    text-align: center;
-    font-weight: bold;
-    margin-top: 1.5em;
-    margin-bottom: 0.2em;
-  }
-
-  #view-more {
-    visibility: hidden;
-  }
-
-  #view-less {
-    visibility: hidden;
+    width: 45%;
   }
 }
 
-@media (min-width: 360px) and (max-width: 819px) {
-  header {
-    display: none;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
-    width: 100%;
-    height: 3.75rem;
-    background-color: white;
+@media (max-width: 789px) {
+
+  #main-img {
+    background-position: center;
   }
 
-  header a {
-    text-decoration: none;
-    color: black;
+}
+
+@media (max-width: 600px) {
+
+  #start {
+    display: none;
+  }
+
+  header {
+    display: none;
   }
 
   #mobile-header {
@@ -698,256 +396,58 @@ body {
     width: 12%;
   }
 
-  #dani-pic {
-    width: 130px;
-    height: 130px;
-    border-radius: 50%;
-  }
-
-  span {
-    display: inline-block;
-    font-size: 0.9rem;
-    font-weight: 700;
-  }
-
   #main-img {
-    width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 0;
-    background-image: url("../images//hero-img.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
     background-position: center;
-    color: white;
-    padding-top: 20em;
-    padding-bottom: 7.5em;
-  }
-
-  #main-img2 {
-    width: 100%;
-    display: block;
-    margin: 0 auto;
-    margin-left: 2.4em;
-    margin-bottom: 2em;
-    background-color: white;
-    color: black;
   }
 
   #main-img3 {
-    width: 100%;
-    display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
-    margin: 0 auto;
     margin-left: 0.6em;
     margin-bottom: 1.25em;
-    background-color: white;
-    color: black;
-    overflow: hidden;
   }
 
   #hero-img2 {
-    display: block;
-    width: 90%;
-    height: 510px;
-    margin: 0 auto;
-    margin-bottom: 1.5em;
-    background-image: url("../images/hero-img.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
     background-position: center;
   }
 
-  #hero-img2 img {
-    width: 100%;
-    height: 400px;
-    margin-bottom: 0;
-  }
-
-  #date {
-    margin-bottom: 0.6em;
-    margin-left: 3.2em;
-    font-size: 1.2rem;
-  }
-
   #date2 {
-    margin-top: 5em;
-    margin-bottom: 0.9em;
     margin-left: 1em;
     font-size: 1.2rem;
-  }
-
-  h1 {
-    margin-top: 0;
-    margin-bottom: 0.5em;
-    margin-left: 4em;
-    font-size: 1.75rem;
-    font-weight: bold;
-  }
-
-  #title {
-    width: 80%;
-    margin-top: 0;
-    margin-bottom: 0.5em;
-    margin-left: 2.2em;
-    font-size: 1.75rem;
-    font-weight: bold;
-  }
+    }
 
   #title2 {
-    margin-top: 0;
-    margin-bottom: 0.9em;
     margin-left: 0.7em;
     font-size: 1.5rem;
-    font-weight: bold;
-  }
-
-  #description {
-    width: 80%;
-    line-height: 1.7;
-    font-size: 1rem;
-    margin-top: 0;
-    margin-left: 4em;
-    margin-bottom: 0.4em;
   }
 
   #description-b {
     width: 76%;
-    line-height: 1.7;
-    font-size: 1rem;
-    margin-top: 0;
     margin-left: 1.2em;
   }
 
   #description2 {
-    width: 80%;
-    line-height: 1.7;
-    font-size: 0.8rem;
-    margin-top: 0;
     margin-left: 4em;
-    margin-bottom: 1em;
   }
 
   #articles-section {
     width: 90%;
-    display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     gap: 2em;
-    margin: 0 auto;
-    margin-top: 0;
-    background-color: white;
-    padding-top: 1.8em;
-    padding-bottom: 0.4em;
   }
 
   #articles-hidden {
     display: none;
     width: 90%;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 2em;
-    margin: 0 auto;
-    margin-top: 0;
-    background-color: white;
-    padding-top: 0.5em;
-    padding-bottom: 0.6em;
-  }
-
-  #article-img {
-    margin: auto;
   }
 
   #article-design {
-    display: block;
     width: 90%;
-    margin: 0 auto;
-    margin-bottom: 0.6em;
-  }
-
-  #art-p,
-  #art-h2,
-  #art-descrip {
-    margin-left: 0;
-  }
-
-  #art-p {
-    font-size: 1.2rem;
-    margin-top: 1.25em;
-    margin-bottom: 0;
-  }
-
-  #art-h2 {
-    font-size: 1.75rem;
-    font-weight: 700;
-    margin-top: 0.4em;
-    margin-bottom: 0;
-  }
-
-  #art-descrip {
-    font-size: 1rem;
-    color: #505050;
-    line-height: 1.5;
-    margin-top: 0.3em;
-  }
-
-  button {
-    display: block;
-    margin: 0 auto;
-    padding-bottom: 0.3em;
-    border: none;
-    font-weight: bold;
-    font-size: 0.8rem;
-    text-decoration: underline;
-  }
-
-  #summary-data {
-    width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-    margin-top: 0;
-    margin-bottom: 0;
-    background-color: white;
-  }
-
-  #about-me-data {
-    width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-    margin-top: 4em;
-    margin-bottom: 0;
-    background-color: white;
-  }
-
-  #summary {
-    width: 100%;
-    display: block;
-    margin: 0 auto;
-    margin-top: 0;
-    background-color: white;
-    padding-bottom: 0.4em;
   }
 
   .summary-title {
-    font-weight: bold;
-    margin-top: 0;
     margin-left: 3.2em;
-    padding-top: 0.4em;
-  }
-
-  #recent-posts {
-    font-size: 1.2rem;
-    text-align: center;
-    font-weight: bold;
-    margin-top: 1.5em;
-    margin-bottom: 0.2em;
   }
 
   #view-more {
@@ -956,7 +456,19 @@ body {
   }
 
   #view-less {
-    visibility: hidden;
     margin-bottom: 2em;
   }
+}
+
+@media (max-width: 476px) {
+
+  #hamb-menu {
+    width: 85%;
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    list-style-type: none;
+  }
+
 }
