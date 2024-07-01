@@ -6,8 +6,6 @@ const articlesHiddenSectionEl = document.getElementById("articles-hidden");
 const hambPic = document.getElementById("hamb-pic");
 const hambMenu = document.getElementById("hamb-menu");
 
-console.log("Hola");
-
 viewMoreBtn.addEventListener("click", function () {
    articlesHiddenSectionEl.style.display="flex";
    viewLessBtn.style.visibility="visible"; 
@@ -22,7 +20,6 @@ viewLessBtn.addEventListener("click", function () {
  });
 
  hambPic.addEventListener("click", function () {
-   console.log("Button Clicked");
 if(hambMenu.style.display === "none" || hambMenu.style.display === "") {
    hambMenu.style.display="flex";
   } else if (hambMenu.style.display==="flex") {
