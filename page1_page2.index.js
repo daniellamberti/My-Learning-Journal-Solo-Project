@@ -1,9 +1,9 @@
 document.addEventListener("DOMContentLoaded", function () {
    
-const hambPic = document.getElementById("hamb-pic");
+const hambPicDiv = document.getElementById("hamb-pic-div");
 const hambMenu = document.getElementById("hamb-menu");
 
-hambPic.addEventListener("click", function () {
+hambPicDiv.addEventListener("click", function () {
  if(hambMenu.style.display === "none" || hambMenu.style.display === "") {
     hambMenu.style.display="flex";
    } else if (hambMenu.style.display==="flex") {

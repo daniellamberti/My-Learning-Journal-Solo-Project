@@ -329,13 +329,22 @@ body {
 
   #mobile-header {
     display: block;
-    padding-top: 0.2em;
+    padding: 0.6em;
+    width: 98%;
+    margin: 0 auto;
+  }
+
+  #hamb-pic-div {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    cursor: pointer;
+    gap: 0.4em;
   }
 
   #hamb-pic {
-    display: block;
-    margin: 0 auto;
-    width: 30px;
+    width: 20%;
   }
 
   #hamb-menu {
@@ -380,7 +389,7 @@ body {
   }
 
   .logo-img {
-    width: 12%;
+    width: 10%;
   }
 
   .main-img {

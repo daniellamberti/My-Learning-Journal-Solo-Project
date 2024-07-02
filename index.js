@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
 const viewMoreBtn = document.getElementById("view-more");
 const viewLessBtn = document.getElementById("view-less");
 const articlesHiddenSectionEl = document.getElementById("articles-hidden");
-const hambPic = document.getElementById("hamb-pic");
+const hambPicDiv = document.getElementById("hamb-pic-div");
 const hambMenu = document.getElementById("hamb-menu");
 
 viewMoreBtn.addEventListener("click", function () {
@@ -19,7 +19,7 @@ viewLessBtn.addEventListener("click", function () {
     viewMoreBtn.style.visibility="visible";
  });
 
- hambPic.addEventListener("click", function () {
+ hambPicDiv.addEventListener("click", function () {
 if(hambMenu.style.display === "none" || hambMenu.style.display === "") {
    hambMenu.style.display="flex";
   } else if (hambMenu.style.display==="flex") {
