@@ -1,8 +1,12 @@
+/* ===============  BODY RESET PARAMETERS =============== */
+
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+/* ==============   HEADER SETTINGS ============== */
 
 @media (max-width: 7680px) {
   #start {
@@ -16,6 +20,8 @@ body {
     background-color: white;
   }
 
+  /* ============== HEADER SETTING FOR MOBILE VERSION - HAMBURGER BUTTON ================= */
+
   #mobile-header {
     display: none;
   }
@@ -28,6 +34,8 @@ body {
     gap: 0.2em;
     padding: 6px;
   }
+
+  /* ============    NAV LINKS IN HEADER  ============ */
 
   header a {
     text-decoration: none;
@@ -66,7 +74,8 @@ body {
     font-weight: 700;
   }
 
-  .main-img, .main-img2 {
+  .main-img,
+  .main-img2 {
     width: 100%;
     display: block;
     margin: 0 auto;
@@ -120,7 +129,8 @@ body {
     margin-bottom: 0;
   }
 
-  .date, .date2 {
+  .date,
+  .date2 {
     font-size: 1.2rem;
   }
 
@@ -143,7 +153,8 @@ body {
     font-weight: bold;
   }
 
-  .title, .title2 {
+  .title,
+  .title2 {
     margin-top: 0;
     font-size: 1.75rem;
     font-weight: bold;
@@ -159,7 +170,8 @@ body {
     margin-left: 1.35em;
   }
 
-  .description, .description2 {
+  .description,
+  .description2 {
     width: 80%;
     line-height: 1.7;
     font-size: 1rem;
@@ -185,7 +197,10 @@ body {
     margin-bottom: 1em;
   }
 
-  #articles-section, #articles-hidden {
+  /* ==============  BLOGS SECTION RULES ================ */
+
+  #articles-section,
+  #articles-hidden {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -193,7 +208,6 @@ body {
     margin: 0 auto;
     margin-top: 0;
     background-color: white;
-
   }
 
   #articles-section {
@@ -255,8 +269,8 @@ body {
     text-decoration: underline;
   }
 
-
-  .summary-data, .about-me-data {
+  .summary-data,
+  .about-me-data {
     width: 100%;
     height: auto;
     display: block;
